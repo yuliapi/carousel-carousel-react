@@ -1,7 +1,6 @@
 {
   "name": "carousel-carousel-react",
   "version": "0.1.0",
-  "private": true,
   "description": "React component to display images as animated responsive slider with progress bullets",
   "keywords": [
     "react",
@@ -30,7 +29,8 @@
     "webpack": "^2.6.1"
   },
   "scripts": {
-    "build": "cross-env NODE_ENV=\"production\" webpack"
+    "build": "cross-env NODE_ENV=\"production\" webpack",
+    "prepublish": "npm version patch"
   },
   "jest": {
     "collectCoverageFrom": [
