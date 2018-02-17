@@ -1,6 +1,6 @@
 {
   "name": "carousel-carousel-react",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "React component to display images as animated responsive slider with progress bullets",
   "keywords": [
     "react",
