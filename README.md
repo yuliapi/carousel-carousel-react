@@ -12,8 +12,10 @@ npm install --save carousel-carousel-react
 ### Project structure
 ```
 .
-|--src
+|-src
     |--images
+        |--myImage-large.jpg
+        |--myImage-small.jpg
     |--App.js
 ```
 ### Prepare images
@@ -38,7 +40,7 @@ For instance,
 - `monkey-funny-size_suffix.ext` is valid;
 - `monkey-funny.ext` is valid to , but you'll get incorrect **alt** attribute (`alt="monkey"`)
 
-Supported formats .jpg, .png, .jpeg
+Supported formats **.jpg**, **.png**, **.jpeg**
 
 Place all images in image folder which should be in the same directory with App.js file
 
