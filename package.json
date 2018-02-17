@@ -30,7 +30,8 @@
     "build:watch": "cross-env NODE_ENV=production babel lib -w -d build --copy-files --ignore **/*.test.js",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
-    "prepublish": "npm version patch && npm run build",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm version patch",
     "copyCss": "postcss",
     "test": "jest"
   },
