@@ -45,12 +45,14 @@ var Carousel = function (_Component) {
         };
 
         var images = Carousel.prepareImages(_this.props.images);
+
         _this.state = {
             id: 'myCarousel',
             currentActive: 0,
             images: images,
             total: images.length
         };
+        console.log(_this.state.image);
         return _this;
     }
 
