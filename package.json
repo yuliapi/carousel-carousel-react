@@ -1,6 +1,6 @@
 {
   "name": "carousel-carousel-react",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "React component to display images as animated responsive slider with progress bullets",
   "keywords": [
     "react",
@@ -26,7 +26,7 @@
   "lisence": "MIT",
   "main": "build/index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production babel lib -d build",
+    "build": "cross-env NODE_ENV=production babel lib -d build --copy-files --ignore **/*.test.js",
     "build:watch": "cross-env NODE_ENV=production babel lib -w -d build --copy-files --ignore **/*.test.js",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
