@@ -28,7 +28,7 @@ To provide versions of an image for different display device scenarios this comp
  </picture>
 ````
 In current version component follows mandatory naming convention that requires `'-size_suffix.ext'`. 
-We recommend can use following suffixes to name image files:
+We recommend to use following suffixes to name image files:
 + `image1_name-small.ext`
 + `image1_name-large.ext`
 
